@@ -1,0 +1,114 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+MANIFEST
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+env*/
+venv*/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# ===============================
+# IDE / Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# ===============================
+# Jupyter / Notebooks
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+notebooks/
+*.nbconvert.ipynb
+
+# ===============================
+# Environment variables / keys
+# ===============================
+.env
+.env.local
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+
+# ===============================
+# OS / Misc
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+*.zip
+*.rar
+
+# ===============================
+# Streamlit cache / logs
+# ===============================
+.streamlit/
+.cache/
+logs/
+# optional Streamlit configuration
+.streamlit/config.toml
+
+# ===============================
+# Supabase / credentials
+# ===============================
+supabase/.temp/
+supabase/.cache/
+supabase/functions/.env
+supabase/functions/node_modules/
+supabase/functions/dist/
+supabase/.env
+
+# ===============================
+# Data / temporary exports
+# ===============================
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.db
+*.sqlite3
+*.sqlite
+/data/
+output/
+exports/
+
+# ===============================
+# uv / poetry / pyproject
+# ===============================
+.uv/
+.uv-lock/
+.poetry/
+poetry.lock
+pyproject.lock
+*.toml.lock
